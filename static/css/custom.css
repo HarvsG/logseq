@@ -1,1 +1,4 @@
-
+/* hide empty properties */
+div.block-properties > div:has(div:empty) {
+  display: none;
+}
